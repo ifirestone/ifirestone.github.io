@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://res.cloudinary.com/madlab/image/upload/v1737819683/IFIRESTONE/CA_-_English_-_Ivan_Firestone_s7qhyu.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -113,6 +113,13 @@ const CONFIG = {
       from: 'May 2024',
       to: 'Present',
       companyLink: 'https://ogtic.gob.do',
+    },
+    {
+      company: 'Universidad Eugenio Maria de Hostos (UNIREMHOS)',
+      position: 'Computer Science Professor',
+      from: 'Jan 2022',
+      to: 'Present',
+      companyLink: 'https://uniremhos.edu.do',
     },
     {
       company:
@@ -152,54 +159,91 @@ const CONFIG = {
       to: 'April 2021',
       companyLink: '',
     },
+    {
+      company: 'JIC Technology',
+      position: 'IT Manager',
+      from: 'Jan 2003',
+      to: 'Sep 2005',
+      companyLink: '',
+    },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Master in Applied Artificial Intelligence',
+      body: 'Ministry of Commerce of China',
+      year: '2023',
+      link: '',
+    },
+    {
+      name: 'Big Data and Artificial Intelligence Conference',
+      body: 'Instituto de Comunicación Política',
+      year: '2021',
+      link: 'https://www.facebook.com/watch/?v=448689546997668',
+    },
+    {
+      name: 'New Communications Technology and System Maintenance',
+      body: 'Ministry of Commerce People’s Republic of China',
+      year: '2019',
+      link: '',
+    },
+    {
+      name: 'Electronic World Trade Alliance Expert Advisor',
+      body: 'Winliner Information Technology Co. LT',
+      year: '2019',
+      link: '',
+    },
+    {
+      name: 'Bullet Proof Manager Program',
+      body: 'CRESTCOM',
+      year: '2014',
+      link: 'https://crestcom.com/',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Tecnológico de Monterrey',
+      degree: 'Master in Applied Artificial Intelligence',
+      from: '2025',
+      to: 'On Going',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad Eugenio Maria de Hostos (UNIREMHOS)',
+      degree: 'Bachelor’s Degree in Computer Science',
+      from: '2017',
+      to: '2021',
+    },
+    {
+      institution: 'BARNA Management School',
+      degree: 'Strategic Direction',
+      from: '2018',
+      to: '2018',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'El impacto del portal de becas en RD',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'El Caribe',
+      authors: 'Milena Herazo',
+      link: 'https://www.elcaribe.com.do/gente/estilo/el-impacto-del-portal-de-becas-en-rd/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Tras los clics que damos día a día en la búsqueda de informaciones en la web, se encuentran personas que trabajan para hacer “digerible” la gran cantidad de contenido que están buscando los usuarios. Es el caso de lo sucedido con “Beca Tu Futuro”, una plataforma integral diseñada para concentrar todas las oportunidades de becas disponibles en un solo lugar y funcionar como una herramienta de información, selección y administración dentro del Sistema Nacional de Becas y Crédito de Apoyo Educativo, facilitando el proceso desde la publicación hasta la adjudicación de la oportunidad.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Egresados de la UNIREMHOS se destacan en el mercado laboral',
+      conferenceName: '',
+      journalName: 'Portal UNIREMHOS',
+      authors: 'UNIREMHOS',
+      link: 'https://uniremhos.edu.do/egresados/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'La Asociación de Egresados de la UNIREMHOS, ASEUNIREMHOS, es la asociación no lucrativa y de duración indefinida, integrada por los profesionales de grado y posgrado egresados de la Universidad Eugenio María de Hostos (UNIREMHOS), quienes se mantienen fieles a los principios de la Institución que los formó, esta busca mantener el vínculo con la institución y los compañeros que les permita compartir experiencias académicas, profesionales, sociales y culturales.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'ifirestone', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
