@@ -91,27 +91,66 @@ const CONFIG = {
     'Nest.js',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
+    'REST API',
+    'MSSQL',
+    'Microservices',
+    'Docker',
+    'Kubernetes',
+    'Cloud Computing',
     'Git',
     'Docker',
     'PHPUnit',
     'CSS',
-    'Antd',
+    'Next.js',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company:
+        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
+      position: 'Director Arquitectura Digital Gubernamental',
+      from: 'May 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://ogtic.gob.do',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company:
+        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
+      position: 'Encargado de Plataformas y Servicios',
+      from: 'Oct 2022',
+      to: 'May 2024',
+      companyLink: 'https://ogtic.gob.do',
+    },
+    {
+      company:
+        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
+      position: 'Encargado División de Desarrollo',
+      from: 'Feb 2022',
+      to: 'Oct 2022',
+      companyLink: 'https://ogtic.gob.do',
+    },
+    {
+      company:
+        'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
+      position: 'Software Developer',
+      from: 'April 2021',
+      to: 'Feb 2022',
+      companyLink: 'https://ogtic.gob.do',
+    },
+    {
+      company: 'PRONET, SRL',
+      position: 'Gerente de Tecnología',
+      from: 'Nov 2009',
+      to: 'April 2021',
+      companyLink: '',
+    },
+    {
+      company: 'BEC Telecom',
+      position: 'Wireless Network Engineer',
+      from: 'Sep 2005',
+      to: 'April 2021',
+      companyLink: '',
     },
   ],
   certifications: [
@@ -238,7 +277,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>`,
 
   enablePWA: true,
 };
